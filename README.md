@@ -1,7 +1,10 @@
 # 🎬 Movie Search App
 
 A simple and elegant movie search application built with [React](https://reactjs.org/) and [Vite](https://vitejs.dev/). This app allows users to search for movies using an external API and displays relevant details such as title, release date, poster, and more.
-[Link Symbol](https://moviesearch24.netlify.app/)
+
+## Live Demo
+
+🔗 [Movie Search App](https://moviesearch24.netlify.app/)
 
 ## 🚀 Features
 
