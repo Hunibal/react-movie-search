@@ -1,0 +1,390 @@
+.container {
+    margin: 5rem auto;
+    max-width:960px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+    background-color: #EDF2F4;
+    border-radius: 15px;
+}
+
+.header {
+    vertical-align: bottom;
+    justify-content: flex-end;
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+    height: 250px;
+    padding:0 4rem 2rem 4rem;
+    background: url("./assets/background.jpg"), rgba(255, 255, 255, 0.6);
+    background-blend-mode: overlay;
+    background-size: 716px;
+    background-position: 131px 340px;
+    border-radius: 15px 15px 0 0;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    width: 15rem;
+    height: 15rem;
+}
+
+.logo svg {
+    width: inherit;
+    height: inherit;
+}
+
+.slogan {
+    margin: 0 0 0 2rem;
+    color: #E14949;
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.title {
+    margin: 0 0 0 2rem;
+    font-size: 3.2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.form {
+    display:grid;
+    background: white;
+    height: 50px;
+    border-radius: 5rem;
+    grid-template-columns: auto 1fr auto;
+    grid-gap: 1rem;
+    align-items: center;
+
+}
+
+
+.input {
+    margin-bottom: 0;
+
+}
+
+.input:focus {
+    outline: none;
+}
+
+.search-icon {
+    width: 2.8rem;
+    height: 2.8rem;
+    margin-left: 1rem;
+}
+
+.label {
+    font-size: 1.2rem;
+    margin-bottom: 0.2rem;
+    text-transform: uppercase;
+}
+
+.input {
+    font-size: 1.6rem;
+    padding: 0.5rem 2rem;
+    line-height: 2.8rem;
+    margin-bottom: 1rem;
+    border: none;
+    background-color: white;
+}
+
+.button {
+    width: 120px;
+    height: 40px;
+    margin-right: 0.5rem;
+    background-color: #e14949;
+    border: 1px solid #E14949;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 5rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: background-color 250ms;
+}
+
+.button:hover {
+    background-color: rgba(225,73,73, 0.6);
+}
+
+
+
+.card-list, .card-single {
+    margin: 4rem 4rem;
+
+}
+
+@keyframes appear {
+    from {
+      opacity: 0;
+      transform: scaleX(0.8);
+
+    
+    }
+    to {
+      opacity: 1;
+      transform: scaleX(1);
+    
+    }
+  }
+
+.card-multi, .discover--card {
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 25%;
+
+}
+
+.card {
+
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.25);
+    margin-bottom: 2rem;
+    background-color: #FDFDFB;
+}
+
+.card--content--wrapper {
+    display: grid;
+    grid: auto-flow / 1fr 3fr;
+}
+
+.card--title {
+    margin-bottom: 0.5rem;
+    font-size: 3.2rem;
+}
+
+.card--tagline {
+    font-size: 1.6rem;
+}
+
+.rating {
+    font-size:2.8rem;
+    font-weight: 700;
+}
+
+.title--wrapper {
+    display: grid;
+    grid: auto-flow / 3fr 1fr;
+}
+
+.card--image--wrapper {
+    width:18.5rem;
+}
+
+.card--image {
+    margin: 0;
+    display: block;
+    border-radius: 1rem;
+}
+
+.card--footer{
+    display: grid;
+    grid: auto-flow / 1fr 1fr 3fr;
+}
+
+.home-container {
+    min-height: 40vh;
+
+}
+
+.discover--wrapper {
+    margin: 4rem 2rem;
+}
+
+.discover--card {
+    padding:1rem;
+}
+
+.discover--container {
+    display:grid;
+    grid: auto-flow / 1fr 1fr 1fr 1fr 1fr;
+    gap: 0rem 1rem;
+}
+
+.discover--image {
+    margin: 0 auto;
+    display: block;
+    border-radius: 1rem;
+}
+.discover--card:hover {
+    transition-duration: 200ms;
+    transform: scale(0.95);
+    opacity: 0.85;
+}
+
+.discover--title, .video--title {
+    text-align: center;
+    font-size: 1.4rem;
+    margin: 1rem 0 0.4rem 0;
+}
+
+.movie--details, .production--details {
+    display: grid;
+    grid: auto-flow / 1fr 1fr 1fr 1fr;
+}
+
+.detail--parameter {
+    margin-top: 0.6rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.crew-container {
+    display: grid;
+    grid: auto-flow / 1fr 1fr 1fr;
+}
+
+.videos--wrapper, .similar--wrapper, .details--wrapper, .cast--wrapper, .production--wrapper  {
+    margin-top: 4rem;
+}
+
+.videos--container, .similar--container {
+    display: grid;
+    grid: auto-flow / 1fr 1fr 1fr 1fr;
+}
+
+.details--title {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.similar--title {
+    text-align: center;
+    margin: 0.5rem auto;
+    font-size: 1.3rem;
+}
+
+.footer {
+    display: block;
+    margin: 4rem auto;
+    text-align: center;
+    color: #bdc3c7;
+}
+
+.footer a {
+    color: #bdc3c7;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 1024px) {
+    .container {
+        margin: 0 auto;
+        border-radius: 0;
+    }
+
+    .header {
+        border-radius: 0;
+    }
+
+    .input {
+        margin: 0;
+    }
+
+
+
+    .discover--container {
+        display:grid;
+        grid: auto-flow / 1fr 1fr 1fr 1fr;
+        gap: 0rem 1rem;
+    }
+
+    .discover--container > *:nth-child(n+9) {
+        display: none;
+      }
+
+      .card--content--wrapper {
+        display: grid;
+        grid: auto-flow / 1fr 2fr;
+    }
+
+    .card-list, .card-single {
+        margin: 0;
+    
+    }
+
+    .card {
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    
+}
+
+@media only screen and (max-width: 768px) {
+
+    .card {
+        margin-bottom: 1rem;
+    }
+
+    .card--content--wrapper {
+        grid: auto-flow / auto 1fr;
+        gap: 1rem;
+    }
+
+    .card--image--wrapper {
+        align-content: center;
+    }
+
+    .title--wrapper {
+        display: grid;
+        grid: auto-flow / 4fr 1fr;
+    }
+
+    .rating {
+        font-size: 2.4rem;
+        text-align: end;
+    }
+
+    .card--title {
+        font-size: 2.4rem;
+    }
+
+    .card--desc {
+        font-size: 1.3rem;
+        line-height: 1.7rem;
+    }
+
+    .card--footer {
+        display: none;
+    }
+
+    .discover--container {
+        display:grid;
+        grid: auto-flow / 1fr 1fr;
+        gap: 0rem 1rem;
+    }
+
+    .discover--container > *:nth-child(n+5) {
+        display: none;
+      }
+
+    .discover--card {
+        border-radius: 1.5rem!important;
+    }
+
+    .production--details {
+        
+        grid: auto-flow / 1fr 1fr;
+    }
+
+    .videos--container, .similar--container {
+        grid: auto-flow / 1fr 1fr;
+    }
+
+    .video, .similar {
+        text-align: center;
+    }
+
+    .similar--title {
+        display: block;
+        margin-bottom: 2rem;
+        margin-top: 0;
+    }
+
+
+
+    
+
+}

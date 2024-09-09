@@ -1,0 +1,89 @@
+html {
+  font-size: 10px;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: #bdc3c7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: #272838;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+small {
+  font-size: 1.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: #272838;
+}
+
+a:hover {
+  color: #E14949;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 3.2rem;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+h5 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+input:-webkit-autofill, input:autofill {
+  background-color: transparent !important;
+  -webkit-box-shadow: 0 0 0 1000px transparent inset !important;
+  box-shadow: 0 0 0 1000px transparent inset !important;
+  transition: background-color 5000s ease-in-out 0s; /* Prevent flickering */
+}
+
+.red {
+  color: #e76f51;
+}
+
+.orange {
+  color: #f4a261;
+}
+
+.yellow {
+  color: #e9c46a;
+}
+
+.green {
+  color: #2a9d8f;
+}
+
+.blue {
+  color: #277da1;
+}
